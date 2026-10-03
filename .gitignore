@@ -1,0 +1,49 @@
+# IntelliJ / IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+**/out/
+.vscode/
+*.swp
+*~
+
+# Build / compiled
+*.class
+*.jar
+*.war
+*.ear
+*.log
+build/
+**/build/
+target/
+**/target/
+
+# Python (na wszelki wypadek)
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+.env
+.env.*
+!.env.example
+credentials.json
+**/secrets/
+*.pem
+*.key
+
+# Niezwiązany projekt (jeśli lokalnie obecny)
+Nowak/
